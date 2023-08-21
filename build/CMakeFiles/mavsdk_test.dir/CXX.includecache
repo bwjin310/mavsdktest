@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jss/mavsdk_test/main.cpp
+iostream
+-
+mavsdk/mavsdk.h
+-
+mavsdk/plugins/telemetry/telemetry.h
+-
+mavsdk/plugins/param/param.h
+-
+chrono
+-
+cstdint
+-
+iostream
+-
+future
+-
+memory
+-
+thread
+-
+
